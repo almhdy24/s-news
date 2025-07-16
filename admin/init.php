@@ -1,3 +1,6 @@
 <?php
-require_once __DIR__ . '/../functions.php';
-require_login();
+session_start();
+
+require_once __DIR__ . '/../bootstrap.php';
+require_once __DIR__ . '/../core/init.php';
+require_once __DIR__ . '/middleware.php';
